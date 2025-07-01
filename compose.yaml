@@ -1,7 +1,7 @@
 services:
   dashy:
     image: "lissy93/dashy:latest"
-    containera_name: "dashy"
+    container_name: "dashy"
     restart: unless-stopped
     volumes:
       - /var/lib/home/dashy/conf.yml:/app/user-data/conf.yml
