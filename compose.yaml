@@ -1,0 +1,13 @@
+version: "3.8"
+  services:
+    dashy:
+      image: "lissy93/dashy:latest"
+      containera_name: "dashy"
+      restart: unless-stopped
+      volumes:
+        - /var/lib/home/dashy/conf.yml:/app/user-data/conf.yml
+        - /var/lib/home/dashy/item-icons:/app/user-data/item-icons/
+      ports:
+        - 17054:8080
+      environment:
+        - NODE_ENV=production
