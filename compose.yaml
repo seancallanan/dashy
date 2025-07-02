@@ -5,7 +5,6 @@ services:
     restart: unless-stopped
     volumes:
       - ./data:/app/user-data
-      - ./data/conf.yml:/app/user-data/conf.yml
       - ./data/item-icons:/app/user-data/item-icons/
     ports:
       - 17054:8080
