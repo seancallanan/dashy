@@ -1,0 +1,119 @@
+pageInfo:
+  title: Dashy
+  description: Welcome to your new dashboard!
+  navLinks:
+    - title: GitHub
+      path: https://github.com/Lissy93/dashy
+    - title: Documentation
+      path: https://dashy.to/docs
+appConfig:
+  theme: cherry-blossom
+  layout: auto
+  iconSize: medium
+sections:
+  - name: Getting Started
+    icon: fas fa-rocket
+    items:
+      - title: Dashy Live
+        description: Development a project management links for Dashy
+        icon: https://i.ibb.co/qWWpD0v/astro-dab-128.png
+        url: https://live.dashy.to/
+        target: newtab
+        id: 0_1481_dashylive
+      - title: GitHub
+        description: Source Code, Issues and Pull Requests
+        url: https://github.com/lissy93/dashy
+        icon: favicon
+        id: 1_1481_github
+      - title: Docs
+        description: Configuring & Usage Documentation
+        provider: Dashy.to
+        icon: far fa-book
+        url: https://dashy.to/docs
+        id: 2_1481_docs
+      - title: Showcase
+        description: See how others are using Dashy
+        url: https://github.com/Lissy93/dashy/blob/master/docs/showcase.md
+        icon: far fa-grin-hearts
+        id: 3_1481_showcase
+      - title: Config Guide
+        description: See full list of configuration options
+        url: https://github.com/Lissy93/dashy/blob/master/docs/configuring.md
+        icon: fas fa-wrench
+        id: 4_1481_configguide
+      - title: Support
+        description: Get help with Dashy, raise a bug, or get in contact
+        url: https://github.com/Lissy93/dashy/blob/master/.github/SUPPORT.md
+        icon: far fa-hands-helping
+        id: 5_1481_support
+  - name: Home
+    icon: fas fa-home
+    displayData:
+      sortBy: default
+      rows: 1
+      cols: 1
+      collapsed: false
+      hideForGuests: false
+    items:
+      - title: PiHole
+        description: DNS and Ad blocking
+        icon: https://img.icons8.com/?size=48&id=G53kkIQm6GOh&format=png
+        url: https://pihole.alma12.duckdns.org/admin/login.php
+        target: newtab
+        id: 0_393_pihole
+      - title: Home Assistant
+        description: Home automation
+        icon: https://img.icons8.com/?size=80&id=30131&format=png
+        url: http://media.home:8123
+        target: newtab
+        id: 1_393_homeassistant
+      - title: Nginx Proxy Manager
+        description: Reverse proxy
+        icon: https://img.icons8.com/?size=96&id=t2x6DtCn5Zzx&format=png
+        url: https://media.home:81
+        target: newtab
+        id: 2_393_nginxproxymanager
+      - title: Console
+        description: Management console for media server
+        icon: https://img.icons8.com/?size=160&id=d92tURjOwEdL&format=png
+        url: https://media.home:9090
+        target: newtab
+        id: 3_393_console
+      - title: Komodo
+        description: Docker container manager
+        icon: https://avatars.githubusercontent.com/u/93411308
+        url: http://192.168.1.2:9120/
+        target: newtab
+        id: 4_393_komodo
+      - title: CrowdSec
+        description: External security monitor
+        icon: https://app.crowdsec.net/vectors/logo-outlined.svg
+        url: https://app.crowdsec.net/
+        target: newtab
+        id: 5_393_crowdsec
+      - title: Jellyfin
+        description: Home media
+        icon: https://img.icons8.com/?size=48&id=uoTmH4vq19wX&format=png
+        url: http://jellyfin.alma12.duckdns.org
+        target: newtab
+        id: 6_393_jellyfin
+      - title: NextCloud
+        description: Home Cloud
+        url: https:/cloud.alma/
+        target: newtab
+        id: 7_393_nextcloud
+  - name: Others
+    icon: fa  fa-picture-o
+    displayData:
+      sortBy: default
+      rows: 1
+      cols: 1
+      collapsed: false
+      hideForGuests: false
+    items:
+      - title: Duckdns
+        description: Public DNS
+        icon: https://img.icons8.com/?size=160&id=0MKfJ5RIn5IN&format=png
+        url: https://www.duckdns.org
+        target: newtab
+        id: 0_629_duckdns

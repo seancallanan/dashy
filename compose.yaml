@@ -4,8 +4,8 @@ services:
     container_name: "dashy"
     restart: unless-stopped
     volumes:
-      - /var/lib/home/dashy/conf.yml:/app/user-data/conf.yml
-      - /var/lib/home/dashy/item-icons:/app/user-data/item-icons/
+      - ./data/conf.yml:/app/user-data/conf.yml
+      - ./data/item-icons:/app/user-data/item-icons/
     ports:
       - 17054:8080
     environment:
