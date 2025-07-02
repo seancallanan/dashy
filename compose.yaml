@@ -4,7 +4,7 @@ services:
     container_name: "dashy"
     restart: unless-stopped
     volumes:
-      - ./data:/app/user-data:rw
+      - /home/scallanan/work/dashy/data:/app/user-data
         #- ./data/item-icons:/app/user-data/item-icons/
     ports:
       - 17054:8080
