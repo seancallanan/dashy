@@ -82,7 +82,7 @@ sections:
       - title: Komodo
         description: Docker container manager
         icon: https://avatars.githubusercontent.com/u/93411308
-        url: http://komodo.alma
+        url: http://192.168.1.2:9120/
         target: newtab
         id: 4_393_komodo
       - title: CrowdSec
@@ -94,7 +94,7 @@ sections:
       - title: Jellyfin
         description: Home media
         icon: https://img.icons8.com/?size=48&id=uoTmH4vq19wX&format=png
-        url: http://jellyfin.alma/web/#/home.html
+        url: http://jellyfin.alma12.duckdns.org
         target: newtab
         id: 6_393_jellyfin
       - title: NextCloud

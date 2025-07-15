@@ -1,11 +1,10 @@
 services:
   dashy:
-    image: "lissy93/dashy:latest"
-    container_name: "dashy"
+    image: lissy93/dashy:latest
+    container_name: dashy
     restart: unless-stopped
     volumes:
-      - /home/scallanan/work/dashy/data:/app/user-data
-        #- ./data/item-icons:/app/user-data/item-icons/
+      - ./data:/app/user-data
     ports:
       - 17054:8080
     environment:

@@ -58,13 +58,13 @@ sections:
       - title: PiHole
         description: DNS and Ad blocking
         icon: https://img.icons8.com/?size=48&id=G53kkIQm6GOh&format=png
-        url: https://pihole.alma
+        url: https://pihole.alma12.duckdns.org/admin/login.php
         target: newtab
         id: 0_393_pihole
       - title: Home Assistant
         description: Home automation
         icon: https://img.icons8.com/?size=80&id=30131&format=png
-        url: http://ha.alma
+        url: http://media.home:8123
         target: newtab
         id: 1_393_homeassistant
       - title: Nginx Proxy Manager
@@ -82,7 +82,7 @@ sections:
       - title: Komodo
         description: Docker container manager
         icon: https://avatars.githubusercontent.com/u/93411308
-        url: http://komodo.alma
+        url: http://192.168.1.2:9120/
         target: newtab
         id: 4_393_komodo
       - title: CrowdSec
@@ -94,7 +94,7 @@ sections:
       - title: Jellyfin
         description: Home media
         icon: https://img.icons8.com/?size=48&id=uoTmH4vq19wX&format=png
-        url: http://jellyfin.alma/web/#/home.html
+        url: http://jellyfin.alma12.duckdns.org
         target: newtab
         id: 6_393_jellyfin
       - title: NextCloud
@@ -117,3 +117,4 @@ sections:
         url: https://www.duckdns.org
         target: newtab
         id: 0_629_duckdns
+
