@@ -1,6 +1,6 @@
 services:
   dashy:
-    image: lissy93/dashy:latest
+    image: elestio/dashy:3.1.1
     container_name: dashy
     restart: unless-stopped
     volumes:
@@ -9,3 +9,6 @@ services:
       - 17054:8080
     environment:
       - NODE_ENV=production
+    labels:
+      wud.tag.include: ^\d+\.\d+\.\d+$$
+      wud.link.template: https://github.com/Lissy93/dashy/releases/tag/$${major}.$${minor}.$${patch}

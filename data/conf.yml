@@ -58,7 +58,7 @@ sections:
       - title: PiHole
         description: DNS and Ad blocking
         icon: https://img.icons8.com/?size=48&id=G53kkIQm6GOh&format=png
-        url: https://pihole.alma
+        url: http://adblocker.alma
         target: newtab
         id: 0_393_pihole
       - title: Home Assistant
@@ -79,12 +79,12 @@ sections:
         url: https://media.home:9090
         target: newtab
         id: 3_393_console
-      - title: Komodo
+      - title: Dockge
         description: Docker container manager
         icon: https://avatars.githubusercontent.com/u/93411308
-        url: http://komodo.alma
+        url: http://dockge.alma
         target: newtab
-        id: 4_393_komodo
+        id: 4_393_dockge
       - title: CrowdSec
         description: External security monitor
         icon: https://app.crowdsec.net/vectors/logo-outlined.svg
